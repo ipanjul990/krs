@@ -1,6 +1,6 @@
 <form action="<?= base_url(); ?>index.php/mahasiswa/store" method="POST" role="form">
     <legend>Tambah Data Mahasiswa</legend>
- <!-- wergewrger -->
+ 
     <div class="form-group <?php echo (form_error('nim') ? 'has-error' : '') ?>">
         <label for="nim">Nim</label>
         <input type="text" class="form-control" id="nim" name="nim" placeholder="Isikan NIM" value="<?= set_value('nim'); ?>">
